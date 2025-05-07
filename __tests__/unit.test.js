@@ -74,7 +74,7 @@ describe('isHexColor', () => {
     expect(isHexColor('#abc')).toBe(true);
   });
   test('valid long hex without #', () => {
-    expect(isHexColor('abcdef')).toBe(false);
+    expect(isHexColor('abcdef')).toBe(true);
   });
   test('invalid hex, too long', () => {
     expect(isHexColor('#1234567')).toBe(false);
