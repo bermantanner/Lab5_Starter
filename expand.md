@@ -1,0 +1,6 @@
+1. It is important for bridging between these three technologies. CSS needs to target certain selectors for styles, Javascript needs to target them for functionality.
+2. Data attributes are custom attribyutes that start with data-, used to store extra information on HTML elements. In Javascript you can do something like element.dataset. With microdata, I am not entirely sure but I think it could cause clutter or mislead crawlers.
+3.  A DOM fragment is a container that allows ytou to build a DOM strucutre in memory without immediately inserting it into main document. Powerful because manipulting these fragments is much faster than working directly with live DOM elements.
+4.  Virtual DOM used to optimize UI rendering. I don't know what you gain or lose but upon doing some research I think that you gain performance in complex UI's, but you lose direct control over the DOM.
+5.  class is reserved to define classes in object oriented code
+6.  addEventListender() seems to be better overall because you can attach multiple listeners to the same event on a single element and other speicfications. I think the only advantage of onClick() is maybe being more readable.
